@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>freeCodeCamp - Survey Form</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <header>
         <h1 id="title">freeCodeCamp Survey Form</h1>
@@ -43,33 +45,61 @@
                 <label for="recommend">
                     <p>Would you recommend freeCodeCamp to a friend?</p>
                 </label>
-                <input type="radio" name="recommend" value="definitely">definitely
-                <input type="radio" name="recommend" value="maybe">Maybe
-                <input type="radio" name="recommend" value="notsure">Not sure
+                <div class="inputContainer">
+                    <input type="radio" name="recommend" value="definitely">Definitely
+                    <input type="radio" name="recommend" value="maybe">Maybe
+                    <input type="radio" name="recommend" value="notsure">Not sure
+                </div>
                 <label for="improve">
                     <p>What would you like to see improved? <span class="minimize">(Check all that apply)</span></p>
                 </label>
-                <input type="checkbox" name="improve" value="Front-end Projects">Front-end Projects
-                <input type="checkbox" name="improve" value="Back-end Projects">Back-end Projects
-                <input type="checkbox" name="improve" value="Data Visualization">Data Visualization
-                <input type="checkbox" name="improve" value="Challenges">Challenges
-                <input type="checkbox" name="improve" value="Open Source Community">Open Source Community
-                <input type="checkbox" name="improve" value="Gitter help rooms">Gitter help rooms
-                <input type="checkbox" name="improve" value="Videos">Videos
-                <input type="checkbox" name="improve" value="City Meetups">City Meetups
-                <input type="checkbox" name="improve" value="Wiki">Wiki
-                <input type="checkbox" name="improve" value="Forum">Forum
-                <input type="checkbox" name="improve" value="Additional Courses">Additional Courses
+                <div class="inputContainer">
+                    <div>
+                        <input type="checkbox" name="improve" value="Front-end Projects">Front-end Projects
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Back-end Projects">Back-end Projects
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Data Visualization">Data Visualization
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Challenges">Challenges
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Open Source Community">Open Source Community
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Gitter help rooms">Gitter help rooms
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Videos">Videos
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="City Meetups">City Meetups
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Wiki">Wiki
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Forum">Forum
+                    </div>
+                    <div>
+                        <input type="checkbox" name="improve" value="Additional Courses">Additional Courses
+                    </div>
+                </div>
                 <label for="comment">
                     <p>Any comments or suggestions?</p>
-                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+                    <textarea name="comment" id="comment" placeholder="Enter your comment here..."></textarea>
                 </label>
             </fieldset>
-            <button type="submit">Submit</button>
+            <button type="submit" value="Submit">Submit</button>
         </form>
     </main>
     <footer>
-        <p>freeCodeCamp - <strong>Nahuel Genchi</strong></p>
+        <p>freeCodeCamp - <a href="https://www.freecodecamp.org/genchi" target="_blank"><strong>Nahuel
+                    Genchi</strong></a></p>
     </footer>
 </body>
+
 </html>
