@@ -13,6 +13,7 @@ body {
 header {
   min-height: 20vh;
   text-align: center;
+  margin-top: 50px;
 }
 
 main {
